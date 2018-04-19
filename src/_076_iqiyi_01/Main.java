@@ -11,7 +11,7 @@ public class Main {
             for (int i = 0; i < s.length(); i++) {
                 StringBuffer sf = new StringBuffer();
                 char pre = 'a';
-                for (int j = i; j < s.l ength(); j++) {
+                for (int j = i; j < s.length(); j++) {
                     if (s.charAt(j) > pre) {
                         if (sf.length()!=0) {
                             sf.delete(sf.length() - 1, sf.length());
